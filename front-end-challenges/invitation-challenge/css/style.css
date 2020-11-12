@@ -1,4 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
 body {
-  margin: 0;
-  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+#login .nav-item {
+  padding-left: 1rem !important;
+}
+
+.btn-rainbow {
+  background-image: linear-gradient(to right, #fb7b31, #a831a5);
+  background-repeat: repeat-y;
+}
+
+.cash-reward .fa-check-circle:before {
+  background: linear-gradient(to right, #fb7b31, #a831a5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: initial; /* reset Font Awesome's display:inline-block */
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.signup-image {
+  margin-top: -15px;
+  margin-bottom: -85px;
+}
+
+.post-links-image {
+  margin-top: -30px;
+  margin-bottom: -50px;
+}
+
+.company-logos {
+  margin-top: 85px;
+  margin-bottom: 4em;
+}
+
+footer .container {
+  color: white;
+  background-color: #000;
+}
+
+.smaller-text {
+  font-size: 0.75em;
+}
+
+.pictures img {
+  padding-bottom: 16px;
+}
+
+span.icon {
+  background: url("../img/g-normal.png") transparent 5px 50% no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  width: 42px;
+  height: 42px;
+}
+
+.underlined {
+  text-decoration: underline;
 }
