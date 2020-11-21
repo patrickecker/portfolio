@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap");
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.btn {
+  font-size: 1em;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+nav .navbar-nav li a {
+  color: white !important;
+}
+
+.jumbotron {
+  background-image: url("../img/hero-image.png");
+  background-color: #000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  height: 540px;
+  padding: 0 2rem 4rem 2rem;
+}
+
+.job {
+  padding: 0 2em 3em 2em;
+}
+
+.job-title {
+  font-size: 1.25em;
+  font-weight: bolder;
+}
+
+.job-company {
+  font-size: 0.75em;
+}
+
+.job-location {
+  font-size: 0.75em;
+  color: #333;
+}
+
+.smaller-text {
+  font-size: 0.65em !important;
+}
+
+.job-first {
+  border-right: 1px solid #333;
+}
+
+.job-last {
+  border-left: 1px solid #333;
+}
+
+.job .text-muted {
+  font-size: 0.75em;
+}
+
+.job button {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.icon {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  border: 1px solid #7c7c7c;
+  border-radius: 40px;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  background-image: url(../img/icon-briefcase.png);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+.btn-floating.control-prev {
+  position: relative;
+  bottom: 100px;
+  left: -10px;
+}
+
+.btn-circle {
+  margin: auto !important;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+}
+
+.btn-circle.control-next {
+  padding-top: 1.5rem;
+  float: right;
+  position: relative;
+  bottom: 120px;
+  left: 100px;
+}
+
+.newsletter-background {
+  background-image: url("../img/Newsletter-image.png");
+  background-position-x: right 0px;
+  background-repeat: no-repeat;
+}
+
+.footer-links__link {
+  display: inline-block;
+  padding-right: 0.3rem;
+  padding-left: 0.3rem;
+}
+
+.footer-links__link > a {
+  color: #7c7c7c;
+}
+
+@media only screen and (max-width: 992px) {
+  .newsletter-background {
+    background-image: url("../img/Newsletter-image.png");
+    background-position-x: right 0px;
+    background-size: 120%;
+    background-repeat: no-repeat;
+  }
+}
